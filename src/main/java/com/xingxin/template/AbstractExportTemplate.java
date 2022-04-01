@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 采用阿里easyExcel流式导出方式，需要继承该类并实现getData方法；
- * 适用于数据量较大，需要分页查询导出的，可参考com.dtminds.bmall.admin.controller.ZhuGeUserGroupController#exportZhugeUserGroup1；
+ * 适用于数据量较大，需要分页查询导出的，可参考com.xingxin.controller.UserController#userExport；
  * 如果数据量不大，可以一次性加载到内存的，可以参考com.xingxin.utils.EasyExcelUtils#export2Web；
  *
  * @author liuxh
